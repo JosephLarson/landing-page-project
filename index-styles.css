@@ -85,7 +85,7 @@ body {
     padding-top: 16px;
     padding-bottom: 16px;
     
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 #cardimages {
@@ -99,6 +99,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 24px;
 }
 
 .info-one, .info-two, .info-three, .info-four {
@@ -111,6 +112,18 @@ body {
 
 .testimonial {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 250px;
+    padding-right: 250px;
+    background-color: #E5E7EB;
+}
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
 }
 
 .action-call {
