@@ -16,6 +16,7 @@ body {
 
 .header {
     justify-content: space-between;
+    padding-top: 16px;
 }
 
 .footer {
@@ -38,17 +39,74 @@ body {
 }
 
 .header, .header-subtext {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .header-subtext {
     display: flex;
     background: #1F2937;
     padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-one {
+    background-color: #3882F6;
+    border: solid #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .content {
     display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.content-title {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+    font-weight: bold;
+}
+
+#cardimages {
+    max-width: 50%;
+    height: auto;
+    border-radius: 25px;
+    border: 5px solid #3882F6;
+}
+
+.content-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.info-one, .info-two, .info-three, .info-four {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .testimonial {
