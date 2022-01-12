@@ -1,0 +1,73 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+.header,
+.footer {
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.footer {
+    justify-content: center;
+    color: #E5E7EB;
+    padding: 12px;
+}
+
+.left-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-subtext, .content, .testimonial, .action-call {
+    flex: 1;
+}
+
+.header, .header-subtext {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.header-subtext {
+    display: flex;
+    background: #1F2937;
+    padding-top: 50px;
+}
+
+.content {
+    display: flex;
+}
+
+.testimonial {
+    display: flex;
+}
+
+.action-call {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
