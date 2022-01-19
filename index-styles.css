@@ -17,6 +17,7 @@ body {
 .header {
     justify-content: space-between;
     padding-top: 16px;
+    height: 200px;
 }
 
 .footer {
@@ -25,16 +26,20 @@ body {
     padding: 12px;
 }
 
-.left-logo {
-    font-size: 24px;
-    color: #F9FAF8;
+.logo {
+    display: flex;
+    justify-content:flex-start;
+    width: auto;
+    height: auto;
+
 }
 
 .right-links {
     font-size: 18px;
     color: #E5E7EB;
+    gap: 32px;
 }
-.header-subtext, .content, .testimonial, .action-call {
+.header, .header-subtext, .content, .testimonial, .action-call {
     flex: 1;
 }
 
@@ -44,10 +49,10 @@ body {
 }
 .header-subtext {
     display: flex;
+    flex-direction: row;
     background: #1F2937;
     padding-top: 50px;
     padding-bottom: 50px;
-    justify-content: center;
 }
 
 .hero-title {
@@ -59,6 +64,13 @@ body {
 .hero-description {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-img{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 80%;
+    max-height: 350px;
 }
 
 .sign-up-one {
@@ -74,8 +86,8 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 125px;
+    padding-right: 125px;
 }
 
 .content-title {
@@ -89,7 +101,7 @@ body {
 }
 
 #cardimages {
-    max-width: 50%;
+    max-width: 90%;
     height: auto;
     border-radius: 25px;
     border: 5px solid #3882F6;
@@ -106,8 +118,10 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    flex-wrap: wrap;
     text-align: center;
+    max-width:200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .testimonial {
@@ -119,6 +133,8 @@ body {
     padding-left: 250px;
     padding-right: 250px;
     background-color: #E5E7EB;
+    font-size: 24px;
+    text-align: center;
 }
 .author {
     display: flex;
@@ -128,6 +144,46 @@ body {
 
 .action-call {
     display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.action-to-play{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+.action-title, .action-text {
+    color: white;
+}
+
+.action-title {
+    font-weight: bold; 
+}
+
+.right-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 75px;
+}
+
+.play-now{
+    border-color: white;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 ul {
